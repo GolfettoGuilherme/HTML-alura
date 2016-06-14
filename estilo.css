@@ -1,8 +1,8 @@
 body{
 	background-color: #F2FFFC;
-	font-family: "Crimson Text", "Baskerville", serif;
+	font-family: "Crimson Text", serif;
 }
-h1{
+main h1{
 	background-color: rgb(133,25,68);
 	color: rgb(255,255,255);
 	text-align: center;
@@ -16,4 +16,18 @@ h1,h2{
 }
 p{
 	text-align: justify;
+}
+blockquote{
+	background-color: #D9E5E3;
+}
+aside{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+footer{
+	background-color: black;
+	color: #F2FFFC;	
+}
+nav a{
+	color: #F2FFFC;
 }
