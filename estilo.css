@@ -4,6 +4,8 @@ body{
 	line-height: 1.5;
 }
 main h1{
+	text-transform: uppercase;
+	font-size: 60px;
 	background-color: rgb(133,25,68);
 	color: rgb(255,255,255);
 	text-align: center;
@@ -23,13 +25,39 @@ main div{
 
 h2{
 	font-size: 16px;
+	margin: 30px 0;
+	clear: both;
+}
+strong{
+	font-weight: bold;
+}
+em{
+	font-style: italic;
 }
 
 h1,h2{
 	font-family: "Open Sans Condensed", sans-serif;
 }
+
+h2{
+	font-size: 30px;
+}
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.leia-mais{
+	 padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
 p{
 	text-align: justify;
+	margin: 20px 0;
 }
 blockquote{
 	background-color: #D9E5E3;
@@ -38,26 +66,84 @@ blockquote{
 	width: 250px;
 	box-sizing: border-box;
 	margin: 0;
+	margin: 20px 40px;
+}
+.fiat{
+	float: right;
+}
+.petrobras	{
+	float: left;
 }
 aside{
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 }
+
 aside a{
 	color: inherit;
 	font: "Open Sans Condensed", sans-serif;
 }
-footer{
+.icones-sociais li{
+	display: inline-block;
+}
+.icones-sociais a{
+	text-indent: -9999px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.github{
+	background-image: url(github.png);
+}
+.twitter{
+	background-image: url(twitter.png);
+}
+.linkedin{
+	background-image: url(linkedin.png);
+}
+.rodape{
 	background-color: black;
 	color: #F2FFFC;	
+}
+nav h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
 }
 nav a{
 	color: #F2FFFC;
 	text-decoration: none;
+}
+nav li{
+	text-transform: lowercase;
 }
 nav, footer, blockquote{
 	padding: 20px;
 }
 aside {
 	text-align: center;
+	clear:right;
+	border-top: 5px solid black;
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+	border-bottom: 10px solid black;
+	box-sizing: border-box;
+}
+aside, img{
+	float: right;
+	width: 15%
+}
+main{
+	float:left;
+	width: 85%
+}
+footer{
+	clear:both;
+}
+.foto-joao{
+	border-top: 10px solid black;
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+	border-bottom: 5px solid black;
+	box-sizing: border-box;
 }
