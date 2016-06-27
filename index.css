@@ -23,6 +23,12 @@
     color: #851944;
     font-size: 4em;
 }
+.eficiencia{
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+/*colocar em todos os li do header*/
 .botao-index {
     font-size 1.25em;
     background-color: #851944;
